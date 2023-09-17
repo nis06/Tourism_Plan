@@ -1,0 +1,113 @@
+/* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Borel&family=Montserrat:wght@200;300;400&family=Mooli&family=Nunito:wght@200;500&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,700;1,700&family=Rubik:wght@500&family=Sedgwick+Ave+Display&family=Ubuntu:wght@300&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Mooli', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 300px;
+    height: max-content;
+    margin: 1rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+     border-radius: 10px;
+     align-items: center;
+     box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+
+}
+
+.image{
+    width: 280px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px 5px;
+}
+.tour-price{
+    color:#1faa59 ;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+.tour-name{
+    font-size: 1.5rem;
+
+}
+
+.read-more{
+    color:#12b0ea;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top:10px ;
+    padding: 10px 80px;
+    border: 1px solid rgb(217, 34, 123);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:pink ;
+}
+
+.btn-red:hover{
+    background-color: rgb(198, 81, 100);
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn-white{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-white:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
